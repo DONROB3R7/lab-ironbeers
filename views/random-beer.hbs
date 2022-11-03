@@ -1,6 +1,7 @@
-<div id="main-container">
-    {{#each data}}
-    <div class="beer-card">
+<div>
+
+  {{#each randomBeer}}
+    <div class="beer-card big-card">
         <div id="image">
         <img src='{{this.image_url}}'>
         </div>
@@ -12,5 +13,4 @@
 
     </div>
     {{/each}}
-  
 </div>
